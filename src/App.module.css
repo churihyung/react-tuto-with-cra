@@ -2,3 +2,9 @@
   font-family: "Times New Roman", Times, serif;
   color: aquamarine;
 }
+
+img {
+  width: 40px;
+  height: 80px;
+  border-radius: 5px;
+}
