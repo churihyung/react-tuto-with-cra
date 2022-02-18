@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Movies from "../components/Movies";
+import MovieDetail from "./MovieDetail";
 
 function Home() {
   //page loading
