@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Movies from "../components/Movies";
-import MovieDetail from "./MovieDetail";
 
 function Home() {
   //page loading
@@ -27,7 +26,7 @@ function Home() {
       <h2>{loading ? "Movie List" : "Loading..."}</h2>
       {movies.map((movie, index) => (
         <Movies
-          key={movie.id}
+          key={index}
           id={movie.id}
           medium_cover_image={movie.medium_cover_image}
           title={movie.title}
